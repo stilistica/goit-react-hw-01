@@ -1,5 +1,5 @@
 import styles from './TransactionHistory.module.css'
-function TransactionHistory({items}) {
+export default function TransactionHistory({items}) {
     return (
         <table className={styles.transactionTable}>
             <thead>
@@ -22,5 +22,3 @@ function TransactionHistory({items}) {
         </table>
     );
 }
-
-export default TransactionHistory;
