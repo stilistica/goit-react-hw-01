@@ -1,0 +1,28 @@
+.transactionTable {
+    margin-top: 30px;
+    width: 700px;
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+
+.transactionTable th, .transactionTable td {
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.transactionTable th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+    background-color: #d3d3d3; /* Світло-сірий колір */
+}
+
+
+
